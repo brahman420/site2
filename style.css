@@ -1,0 +1,228 @@
+.outer-container {
+    border: 3px solid black;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+
+
+}
+
+
+
+header {
+    background-color: darkturquoise;
+    position: relative;
+
+
+
+
+
+
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+#logo-title {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 6px;
+
+
+
+
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav ul li:hover {
+    color: aqua;
+
+
+
+
+}
+
+.outer-container {
+    background-color: lightgray;
+}
+
+
+
+
+
+nav ul li {
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    padding-right: 40px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+
+
+}
+
+a:visited {
+
+    color: inherit;
+
+    text-decoration: inherit;
+
+}
+
+
+.intro-container {
+
+    background-color: darkturquoise;
+    overflow: auto;
+
+
+
+
+}
+
+.intro-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    max-width: 600px;
+    margin: 0;
+    float: left;
+    padding: 3%;
+    box-sizing: border-box;
+
+
+
+
+
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid black;
+    box-sizing: border-box;
+
+}
+
+.intro-text {
+    float: left;
+    max-width: 600px;
+    margin: 0;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.gallary-container {
+    background-color: darkturquoise;
+    overflow: auto;
+
+}
+
+.gallary-img {
+    width: 25%;
+    height: 180px;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: 5px solid black;
+    outline-offset: -10px;
+
+
+}
+
+.About-img {
+    width: 100%;
+    border: 6px solid black;
+    box-sizing: border-box;
+
+
+}
+
+.about-text {
+    max-width: 600px;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.About-img2 {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+
+}
+
+.about-con {
+    float: right;
+    width: 40%;
+
+
+}
+
+@media screen and (max-width: 1087px) {
+    div {
+        flex-direction: column;
+
+    }
+
+    .about-text {
+
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
+footer {
+    background-color: bisque
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+.ev-rapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+    align-items: center;
+}
+
+.ev-rapper img {
+    width: 100%;
+}
+
+.imageev-container {
+    width: 500px;
+}
+
+.introev-text {
+    width: 60%;
+}
