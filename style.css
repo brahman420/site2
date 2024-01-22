@@ -226,3 +226,8 @@ footer p {
 .introev-text {
     width: 60%;
 }
+@media screen and (max-width: 1087px){
+  h1{
+      font-size: 20px;
+  }  
+}
